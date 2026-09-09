@@ -72,7 +72,7 @@ The repository currently includes practice in:
 - Loops and basic pattern practice
 - Functions
 - Arrays, including traversal, summation, and maximum-value operations
-- Strings, including input handling and length calculation
+- Strings, including input handling, length calculation, copying, concatenation, and comparison
 
 The next topics will be added progressively as I continue learning C.
 
