@@ -1,121 +1,54 @@
-# C Programming — Personal Learning Repository
+# C Programming
 
-This repository documents my ongoing learning and practice in the C programming language.
+A structured collection of C programming examples and practice programs developed while learning C from fundamentals toward embedded systems programming.
 
-The purpose is to build a strong understanding of C fundamentals through regular practice, small programs, and progressive improvement. I am using this repository as a record of what I study, implement, test, and understand while developing a foundation for Embedded C and firmware development.
+## Learning Progress
 
-## Learning Objectives
-
-- Develop a strong foundation in C programming.
-- Understand program flow, functions, arrays, pointers, and memory.
-- Improve problem-solving and logical thinking through implementation.
-- Practice writing clear, structured, and readable C code.
-- Build a foundation for Embedded C, microcontroller programming, and firmware development.
-
-## Topics Covered
-
+### 01 - Basics
+- Hello World
 - Variables and data types
-- Operators and expressions
 - Input and output
-- Conditional statements
-- Loops and iteration
-- Functions and return values
-- Arrays and strings
-- Pointers
-- Structures, unions, and enumerations
-- Memory and storage classes
-- Bitwise operations
-- Preprocessor directives and header files
-- Modular C programming
+- Operators
+
+### 02 - Control Flow
+- if-else statements
+- Loops
+- Nested loops
+
+### 03 - Functions
+- Function definition and calls
+- Parameters and return values
+
+### 04 - Arrays and Strings
+- One-dimensional arrays
+- String basics
+- String copy, concatenation, and comparison
+
+### 05 - Pointers
+- Pointer basics
+- Pointer arithmetic
+- Array traversal using pointers
 
 ## Repository Structure
 
 ```text
-01-basics/
-02-control-flow/
-03-functions/
-04-arrays-and-strings/
-05-pointers/
-06-structures-and-unions/
-07-memory-and-storage/
-08-bitwise-operations/
-09-preprocessor-and-headers/
-10-modular-c/
+c-programming/
+├── 01-basics/
+├── 02-control-flow/
+├── 03-functions/
+├── 04-arrays-and-strings/
+├── 05-pointers/
+└── README.md
 ```
 
-The folders are arranged in a learning sequence. New programs will be added as I progress through each topic.
+## Current Focus
 
-## Learning Approach
+The current focus is on pointers and memory-related concepts that are important for embedded C programming, including pointer arithmetic, arrays, and function interaction.
 
-This is a **personal learning and practice repository**, not a collection of unrelated code examples.
+## Goal
 
-My approach is to:
+Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
 
-1. Study a C programming concept.
-2. Implement a small program based on that concept.
-3. Compile and test the program.
-4. Review the logic and understand how the code works.
-5. Improve the program where appropriate.
-6. Commit the work with a clear and meaningful commit message.
+## Author
 
-The programs are intentionally kept practical and understandable so that the repository reflects my actual learning progression.
-
-## Current Progress
-
-The repository currently includes practice in:
-
-- Basic C syntax and program structure
-- Variables and data types
-- Operators and expressions
-- Input and output
-- Conditional statements
-- Loops and basic pattern practice
-- Functions
-- Arrays, including traversal, summation, and maximum-value operations
-- Strings, including input handling, length calculation, copying, concatenation, and comparison
-
-The next topics will be added progressively as I continue learning C.
-
-## Development Principles
-
-- Prefer clarity over unnecessary complexity.
-- Understand the logic before considering a program complete.
-- Keep examples focused on one primary concept.
-- Use meaningful file names and directory organization.
-- Test programs after implementation.
-- Maintain a clean and consistent repository structure.
-- Record progress through meaningful Git commits.
-
-## Why C?
-
-C provides a strong foundation for understanding how software interacts with memory, data, control flow, and hardware. This is particularly relevant to my long-term interest in embedded systems and firmware development.
-
-## Future Learning Path
-
-The repository will gradually progress toward:
-
-```text
-C Fundamentals
-      ↓
-Functions and Data Structures
-      ↓
-Pointers and Memory
-      ↓
-Bitwise Operations
-      ↓
-Modular C Programming
-      ↓
-Embedded C
-      ↓
-Microcontroller Firmware Development
-```
-
-## Repository Status
-
-**Status:** Actively maintained as a personal C programming learning repository.
-
-Programs will be added based on my learning progress rather than artificially increasing the number of files or commits.
-
----
-
-**Focus:** Building a strong C foundation through consistent practice and understanding.
+Aman Shukla
