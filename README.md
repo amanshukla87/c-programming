@@ -28,6 +28,13 @@ A structured collection of C programming examples and practice programs develope
 - Pointer basics
 - Pointer arithmetic
 - Array traversal using pointers
+- Pointer to array
+- Pointer to pointer
+
+### 06 - Structures
+- Structure basics
+- Array of structures
+- Structure pointers and the `->` operator
 
 ## Repository Structure
 
@@ -38,12 +45,13 @@ c-programming/
 ├── 03-functions/
 ├── 04-arrays-and-strings/
 ├── 05-pointers/
+├── 06-structures/
 └── README.md
 ```
 
 ## Current Focus
 
-The current focus is on pointers and memory-related concepts that are important for embedded C programming, including pointer arithmetic, arrays, and function interaction.
+The current focus is on structures and pointers to structures, which are important for organizing related data and working with hardware-oriented data in embedded C.
 
 ## Goal
 
