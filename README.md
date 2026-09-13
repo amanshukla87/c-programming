@@ -35,6 +35,8 @@ A structured collection of C programming examples and practice programs develope
 - Structure basics
 - Array of structures
 - Structure pointers and the `->` operator
+- Nested structures
+- Passing structures to functions
 
 ## Repository Structure
 
@@ -51,7 +53,7 @@ c-programming/
 
 ## Current Focus
 
-The current focus is on structures and pointers to structures, which are important for organizing related data and working with hardware-oriented data in embedded C.
+The current focus is on structures, nested structures, and passing structures to functions. These concepts are useful for organizing related data in embedded C and firmware development.
 
 ## Goal
 
