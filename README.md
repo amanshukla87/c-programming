@@ -38,6 +38,11 @@ A structured collection of C programming examples and practice programs develope
 - Nested structures
 - Passing structures to functions
 
+### 07 - Typedef, Enum, and Union
+- `typedef` with structures
+- Enumerations and named states
+- Union basics and shared memory
+
 ## Repository Structure
 
 ```text
@@ -48,12 +53,13 @@ c-programming/
 ├── 04-arrays-and-strings/
 ├── 05-pointers/
 ├── 06-structures/
+├── 07-typedef-enum-union/
 └── README.md
 ```
 
 ## Current Focus
 
-The current focus is on structures, nested structures, and passing structures to functions. These concepts are useful for organizing related data in embedded C and firmware development.
+The current focus is on `typedef`, `enum`, and `union` after completing the fundamentals of structures and pointers. These concepts are useful when writing organized and memory-conscious embedded C code.
 
 ## Goal
 
