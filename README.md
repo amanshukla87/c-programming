@@ -50,6 +50,7 @@ A structured collection of C programming examples and practice programs develope
 
 ### 09 - Dynamic Memory
 - Dynamic allocation with `malloc()`
+- Dynamic resizing with `realloc()`
 - Heap memory validation
 - Releasing memory with `free()`
 
@@ -71,7 +72,7 @@ c-programming/
 
 ## Current Focus
 
-The current focus is on dynamic memory management after completing file handling. The repository is progressing from core C fundamentals toward practical, memory-conscious programming.
+The current focus is dynamic memory management, with practical programs using dynamically allocated arrays and structures.
 
 ## Goal
 
