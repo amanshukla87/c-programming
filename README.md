@@ -78,6 +78,17 @@ Current exercises emphasize allocating, resizing, validating, and releasing heap
 
 The current focus is dynamic memory management, with practical programs using dynamically allocated arrays and structures.
 
+## Compilation
+
+Programs are written in standard C and can be compiled with a C compiler such as GCC.
+
+Example:
+
+```bash
+gcc filename.c -o program
+./program
+```
+
 ## Goal
 
 Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
