@@ -97,6 +97,14 @@ The repository follows a gradual progression: fundamentals, control flow, functi
 
 The repository includes small focused programs as well as practical record-management exercises to apply C concepts beyond syntax practice.
 
+## Coding Practice Principles
+
+- Validate user input where practical
+- Check dynamic memory allocation results
+- Release dynamically allocated memory
+- Keep programs focused on one concept
+- Prefer readable and maintainable C code
+
 ## Goal
 
 Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
