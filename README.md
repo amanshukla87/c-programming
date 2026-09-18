@@ -43,6 +43,16 @@ A structured collection of C programming examples and practice programs develope
 - Enumerations and named states
 - Union basics and shared memory
 
+### 08 - File Handling
+- File read, write, append, and copy operations
+- Text-based student records
+- Binary structure records
+
+### 09 - Dynamic Memory
+- Dynamic allocation with `malloc()`
+- Heap memory validation
+- Releasing memory with `free()`
+
 ## Repository Structure
 
 ```text
@@ -54,12 +64,14 @@ c-programming/
 ├── 05-pointers/
 ├── 06-structures/
 ├── 07-typedef-enum-union/
+├── 08-file-handling/
+├── 09-dynamic-memory/
 └── README.md
 ```
 
 ## Current Focus
 
-The current focus is on `typedef`, `enum`, and `union` after completing the fundamentals of structures and pointers. These concepts are useful when writing organized and memory-conscious embedded C code.
+The current focus is on dynamic memory management after completing file handling. The repository is progressing from core C fundamentals toward practical, memory-conscious programming.
 
 ## Goal
 
