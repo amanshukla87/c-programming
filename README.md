@@ -70,6 +70,10 @@ c-programming/
 └── README.md
 ```
 
+## Memory Management Practice
+
+Current exercises emphasize allocating, resizing, validating, and releasing heap memory safely.
+
 ## Current Focus
 
 The current focus is dynamic memory management, with practical programs using dynamically allocated arrays and structures.
