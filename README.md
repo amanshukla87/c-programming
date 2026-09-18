@@ -109,6 +109,14 @@ The repository includes small focused programs as well as practical record-manag
 
 Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
 
+## Progress Status
+
+**Completed topics:** 01-09
+
+**Current topic:** Dynamic Memory Management
+
+**Next direction:** More advanced C data structures and problem-solving programs
+
 ## Author
 
 Aman Shukla
