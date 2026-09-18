@@ -93,6 +93,10 @@ gcc filename.c -o program
 
 The repository follows a gradual progression: fundamentals, control flow, functions, arrays, pointers, structures, file handling, and dynamic memory.
 
+## Practical Programs
+
+The repository includes small focused programs as well as practical record-management exercises to apply C concepts beyond syntax practice.
+
 ## Goal
 
 Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
