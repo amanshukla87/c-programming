@@ -1,6 +1,6 @@
 # C Programming
 
-A structured collection of C programming examples and practice programs developed while learning C from fundamentals toward embedded systems programming.
+A structured collection of C programming examples and practice programs developed while learning C from fundamentals toward data structures and embedded systems programming.
 
 ## Learning Progress
 
@@ -54,6 +54,11 @@ A structured collection of C programming examples and practice programs develope
 - Heap memory validation
 - Releasing memory with `free()`
 
+### 10 - Data Structures
+- Singly linked list
+- Stack using linked list
+- Dynamic node allocation and memory cleanup
+
 ## Repository Structure
 
 ```text
@@ -67,16 +72,17 @@ c-programming/
 ├── 07-typedef-enum-union/
 ├── 08-file-handling/
 ├── 09-dynamic-memory/
+├── 10-data-structures/
 └── README.md
 ```
 
 ## Memory Management Practice
 
-Current exercises emphasize allocating, resizing, validating, and releasing heap memory safely.
+The repository includes practical exercises using `malloc()`, `realloc()`, and `free()`, including dynamically allocated structures used in linked data structures.
 
-## Current Focus
+## Data Structures Practice
 
-The current focus is dynamic memory management, with practical programs using dynamically allocated arrays and structures.
+The current data-structures section applies pointers and dynamic memory to practical implementations such as singly linked lists and stacks.
 
 ## Compilation
 
@@ -91,11 +97,11 @@ gcc filename.c -o program
 
 ## Practice Approach
 
-The repository follows a gradual progression: fundamentals, control flow, functions, arrays, pointers, structures, file handling, and dynamic memory.
+The repository follows a gradual progression from C fundamentals through control flow, functions, arrays, pointers, structures, file handling, dynamic memory, and data structures.
 
 ## Practical Programs
 
-The repository includes small focused programs as well as practical record-management exercises to apply C concepts beyond syntax practice.
+The repository includes small focused programs as well as practical record-management and data-structure exercises to apply C concepts beyond syntax practice.
 
 ## Coding Practice Principles
 
@@ -111,11 +117,13 @@ Build a strong foundation in C programming before progressing to embedded C, mic
 
 ## Progress Status
 
-**Completed topics:** 01-09
+**Completed topics:** 01-10
 
-**Current topic:** Dynamic Memory Management
+**Current topic:** Data Structures
 
-**Next direction:** More advanced C data structures and problem-solving programs
+**Recent practice:** Singly linked list and stack using linked list
+
+**Next direction:** More data structures and problem-solving programs
 
 ## Author
 
