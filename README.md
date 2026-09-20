@@ -1,8 +1,8 @@
 # C Programming
 
-A structured collection of C programming examples and practice programs developed while learning C from fundamentals toward data structures and embedded systems programming.
+A personal learning repository for practicing C programming step by step. I use this repository to write small programs, revisit concepts, experiment with different approaches, and build problem-solving habits before moving deeper into embedded C and firmware development.
 
-## Learning Progress
+## Learning Path
 
 ### 01 - Basics
 - Hello World
@@ -96,13 +96,28 @@ gcc filename.c -o program
 ./program
 ```
 
-## Practice Approach
+## How I Am Practicing
 
-The repository follows a gradual progression from C fundamentals through control flow, functions, arrays, pointers, structures, file handling, dynamic memory, and data structures.
+I am learning C by writing and revisiting programs instead of only reading syntax. The practice is organized from simple concepts to more involved problems:
 
-## Practical Programs
+1. Learn a concept
+2. Write a small program from scratch
+3. Compile and run it
+4. Fix errors and improve the implementation
+5. Revisit the same concept through a slightly different problem
+6. Move to the next topic when the fundamentals become comfortable
 
-The repository includes small focused programs as well as practical record-management and data-structure exercises to apply C concepts beyond syntax practice.
+This repository is intentionally a **learning log and practice space**, not a collection of polished production projects.
+
+## What I Am Gaining Through Practice
+
+- Better understanding of C syntax and program flow
+- More confidence with pointers and memory
+- Practical use of structures and file handling
+- Experience with dynamic memory allocation
+- Step-by-step exposure to data structures
+- Better debugging and error-fixing habits
+- Practice turning a concept into a working program
 
 ## Coding Practice Principles
 
@@ -112,19 +127,21 @@ The repository includes small focused programs as well as practical record-manag
 - Keep programs focused on one concept
 - Prefer readable and maintainable C code
 
-## Goal
+## Learning Goal
 
-Build a strong foundation in C programming before progressing to embedded C, microcontroller programming, STM32 development, and firmware-oriented development.
+Build a reliable foundation in C programming through regular hands-on practice. After strengthening the fundamentals, I plan to apply the same concepts to embedded C, microcontroller programming, STM32 development, and firmware-oriented work.
 
-## Progress Status
+## Current Learning Status
 
-**Completed topics:** 01-10
+**Topics practiced:** 01-10
 
-**Current topic:** Data Structures
+**Currently practicing:** Data structures, pointers, dynamic memory, and problem-solving
 
 **Recent practice:** Singly linked list, stack, and queue using linked lists
 
-**Next direction:** More data structures and problem-solving programs
+**Next practice:** More data structures and small problem-solving programs
+
+> The code will continue to change as I learn. Older programs may be revisited and improved rather than treated as final implementations.
 
 ## Author
 
