@@ -57,6 +57,7 @@ A structured collection of C programming examples and practice programs develope
 ### 10 - Data Structures
 - Singly linked list
 - Stack using linked list
+- Queue using linked list
 - Dynamic node allocation and memory cleanup
 
 ## Repository Structure
@@ -82,7 +83,7 @@ The repository includes practical exercises using `malloc()`, `realloc()`, and `
 
 ## Data Structures Practice
 
-The current data-structures section applies pointers and dynamic memory to practical implementations such as singly linked lists and stacks.
+The current data-structures section applies pointers and dynamic memory to practical implementations such as singly linked lists, stacks, and queues.
 
 ## Compilation
 
@@ -121,7 +122,7 @@ Build a strong foundation in C programming before progressing to embedded C, mic
 
 **Current topic:** Data Structures
 
-**Recent practice:** Singly linked list and stack using linked list
+**Recent practice:** Singly linked list, stack, and queue using linked lists
 
 **Next direction:** More data structures and problem-solving programs
 
