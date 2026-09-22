@@ -56,6 +56,7 @@ A personal learning repository for practicing C programming step by step. I use 
 
 ### 10 - Data Structures
 - Singly linked list
+- Doubly linked list
 - Stack using linked list
 - Queue using linked list
 - Dynamic node allocation and memory cleanup
@@ -137,7 +138,7 @@ Build a reliable foundation in C programming through regular hands-on practice. 
 
 **Currently practicing:** Data structures, pointers, dynamic memory, and problem-solving
 
-**Recent practice:** Singly linked list, stack, and queue using linked lists
+**Recent practice:** Singly linked list, doubly linked list, stack, and queue using linked lists
 
 **Next practice:** More data structures and small problem-solving programs
 
