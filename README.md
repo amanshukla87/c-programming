@@ -61,6 +61,11 @@ A personal learning repository for practicing C programming step by step. I use 
 - Queue using linked list
 - Dynamic node allocation and memory cleanup
 
+### 11 - Sorting
+- Bubble sort
+- Swapping adjacent elements
+- Early termination when the array is already sorted
+
 ## Repository Structure
 
 ```text
@@ -134,13 +139,13 @@ Build a reliable foundation in C programming through regular hands-on practice. 
 
 ## Current Learning Status
 
-**Topics practiced:** 01-10
+**Topics practiced:** 01-11
 
-**Currently practicing:** Data structures, pointers, dynamic memory, and problem-solving
+**Currently practicing:** Data structures, sorting, pointers, dynamic memory, and problem-solving
 
-**Recent practice:** Singly linked list, doubly linked list, stack, and queue using linked lists
+**Recent practice:** Binary search tree and bubble sort, along with linked-list-based data structures
 
-**Next practice:** More data structures and small problem-solving programs
+**Next practice:** More sorting algorithms and small problem-solving programs
 
 > The code will continue to change as I learn. Older programs may be revisited and improved rather than treated as final implementations.
 
