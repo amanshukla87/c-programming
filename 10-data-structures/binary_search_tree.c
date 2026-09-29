@@ -58,6 +58,26 @@ void inorder(const Node *root) {
     inorder(root->right);
 }
 
+void preorder(const Node *root) {
+    if (root == NULL) {
+        return;
+    }
+
+    printf("%d ", root->data);
+    preorder(root->left);
+    preorder(root->right);
+}
+
+void postorder(const Node *root) {
+    if (root == NULL) {
+        return;
+    }
+
+    postorder(root->left);
+    postorder(root->right);
+    printf("%d ", root->data);
+}
+
 Node *find_min(Node *root) {
     if (root == NULL) {
         return NULL;
@@ -65,6 +85,36 @@ Node *find_min(Node *root) {
 
     while (root->left != NULL) {
         root = root->left;
+    }
+
+    return root;
+}
+
+Node *delete_node(Node *root, int data) {
+    if (root == NULL) {
+        return NULL;
+    }
+
+    if (data < root->data) {
+        root->left = delete_node(root->left, data);
+    } else if (data > root->data) {
+        root->right = delete_node(root->right, data);
+    } else {
+        if (root->left == NULL) {
+            Node *right_child = root->right;
+            free(root);
+            return right_child;
+        }
+
+        if (root->right == NULL) {
+            Node *left_child = root->left;
+            free(root);
+            return left_child;
+        }
+
+        Node *successor = find_min(root->right);
+        root->data = successor->data;
+        root->right = delete_node(root->right, successor->data);
     }
 
     return root;
@@ -89,8 +139,16 @@ int main(void) {
         root = insert(root, values[i]);
     }
 
-    printf("Binary Search Tree (inorder): ");
+    printf("Inorder: ");
     inorder(root);
+    printf("\n");
+
+    printf("Preorder: ");
+    preorder(root);
+    printf("\n");
+
+    printf("Postorder: ");
+    postorder(root);
     printf("\n");
 
     int target = 60;
@@ -107,6 +165,12 @@ int main(void) {
     if (minimum != NULL) {
         printf("Minimum value: %d\n", minimum->data);
     }
+
+    root = delete_node(root, 70);
+
+    printf("After deleting 70: ");
+    inorder(root);
+    printf("\n");
 
     free_tree(root);
 
